@@ -5,7 +5,7 @@ function InnerApp() {
     <div>
       <h1>Hello</h1>
       <h3>Welcome to App!</h3>
-      <button onClick={() => Auth.signOut()}>Sign Out</button>
+      <button className="button" onClick={() => Auth.signOut()}>Sign Out</button>
     </div>
   )
 }
